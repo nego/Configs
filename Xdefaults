@@ -1,0 +1,60 @@
+xft.dpi: 90.05
+xft*antialias:  1
+xft*rgba:       rgb
+xft*hinting:    true
+xft*hintstyle:  hintslight
+
+xpdf*foreground:     black
+xpdf*background:     white
+xpdf*Geometry: 750x680+30+20
+xpdf*initialZoom: width
+xpdf*urlCommand:     /usr/local/bin/firefox %s
+xpdf*antialias:      yes
+xpdf*enableFreetype: yes
+
+!! Colors
+*background: rgb:00/00/00
+*foreground: rgb:e5/e5/e5
+!! Black + DarkGrey
+*color0:     rgb:00/00/00
+*color8:     rgb:33/33/33
+!! DarkRed + Red
+*color1:     rgb:a8/00/00
+*color9:     rgb:f8/54/50
+!! DarkGreen + Green
+*color2:     rgb:20/ad/20
+*color10:    rgb:35/e9/56
+!! DarkYellow + Yellow
+*color3:     rgb:ff/ff/00
+*color11:    rgb:fe/ff/b3
+!! DarkBlue + Blue
+*color4:     rgb:36/73/b5
+*color12:    rgb:1b/85/d6
+!! DarkMangenta + Mangenta
+*color5:     rgb:a8/00/a8
+*color13:    rgb:f8/54/f8
+!!DarkCyan + Cyan
+*color6:     rgb:7a/be/cc
+*color14:    rgb:33/8e/aa
+!! LightGrey + White
+*color7:     rgb:ff/ff/ff
+*color15:    rgb:ff/ff/ff
+
+xterm*VT100.metaSendsEscape: true
+xterm*scrollBar:false
+xterm*cursorBlink: true
+xterm*rightScrollBar:true
+xterm*jumpScroll:true
+xterm*font: -*-imperium-*-*-*-*-*-*-*-*-*-*-*-1
+xterm*boldFont: -*-imperium-*-*-*-*-*-*-*-*-*-*-*-1
+xterm*cursorColor: IndianRed
+xterm*colorBDMode:   false
+xterm*boldMode: false
+xterm*veryBoldcolors: 14
+xterm*highlightColor:grey70
+xterm*highlightSelection: true
+xterm*activeIcon:false
+xterm*awaitInput:true
+xterm*scrollTtyOutput:   false
+xterm*scrollKey: true
+
